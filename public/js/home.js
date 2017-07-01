@@ -1,8 +1,9 @@
 $(document).ready(function(){
 
-
+  load_tweet_list();
+	
   setInterval(function(){ 
-       load_tweet_list();
+       $('#datatable_tweet').DataTable().ajax.reload();
   }, 30000);
 
 	
