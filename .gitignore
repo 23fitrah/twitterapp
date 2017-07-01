@@ -1,0 +1,10 @@
+/vendor
+<<<<<<< HEAD
+/node_modules
+.env
+=======
+composer.phar
+composer.lock
+.DS_Store
+.idea
+>>>>>>> ff414bdadba3f1570ca211355e5359ec266552d8
