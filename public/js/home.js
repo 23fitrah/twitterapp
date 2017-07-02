@@ -72,6 +72,7 @@ function tweet_post()
 	var res = JSON.parse(res);
         if(res.message=='success')
         {
+		alert('Posting Success');
         	$('#tweet').val("");
 	        $("#myModal").modal('hide');
 	        $('#datatable_tweet').DataTable().ajax.reload();
