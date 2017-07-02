@@ -4,7 +4,7 @@ $(document).ready(function(){
 	
   setInterval(function(){ 
        $('#datatable_tweet').DataTable().ajax.reload();
-  }, 30000);
+  }, 10000);
 
 	
 
