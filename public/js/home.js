@@ -69,6 +69,7 @@ function tweet_post()
       	'tweet':$('#tweet').val()
       },
       success: function(res){
+	var res = JSON.parse(res);
         if(res.message=='success')
         {
         	$('#tweet').val("");
